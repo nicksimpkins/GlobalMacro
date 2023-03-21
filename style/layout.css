@@ -136,16 +136,30 @@ body {
     padding-left: 20%;
     padding-bottom: 20px;
 }
+.tri1 {
+    position: absolute;
+    bottom: -345px;
+    left: 0px;
+    height: 450px;
+    width: 260px;
+}
+.tri2 {
+    position: absolute;
+    bottom: -345px;
+    right: 0px;
+    height: 450px;
+    width: 260px;
+}
 .hex1 {
     position: absolute;
-    bottom: -945px;
+    bottom: -1145px;
     left: 0px;
     height: 450px;
     width: 260px;
 }
 .hex2 {
     position: absolute;
-    bottom: -805px;
+    bottom: -955px;
     right: 0px;
     height: 450px;
     width: 200px;
@@ -156,6 +170,10 @@ body {
 }
 .email:hover {
     color: #1d1d1d;
+}
+#textformat1 {
+    width: 60%;
+    padding-left: 20%;
 }
 #intro {
     color: #ffffff;
