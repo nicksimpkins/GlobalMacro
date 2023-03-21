@@ -150,6 +150,13 @@ body {
     height: 450px;
     width: 200px;
 }
+.email {
+    text-decoration: none;
+    color: #ffffff;
+}
+.email:hover {
+    color: #1d1d1d;
+}
 #intro {
     color: #ffffff;
 }
