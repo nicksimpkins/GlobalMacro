@@ -26,19 +26,43 @@ body {
     margin-left: -10px;
 }
 .navbar a {
+    background-image: linear-gradient(
+    to right,
+    #638891,
+    #638891 50%,
+    #ffffff 50%
+  );
     float: right;
-    display: block;
-    color: #f2f2f2;
+    font-size: 20px;
     text-align: center;
     padding: 22px 20px;
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
 }  
 .navbar a:hover {
-    background: #ddd;
-    color: black;
+    background-position: 0;
 }
+.navbar a:hover::before {
+    width:100%;
+  }
+.navbar a:before {
+    content: '';
+    background: #638891;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
 .main {
     background-color: #1d1d1d;
     border: 1px solid rgb(0, 0, 0);
@@ -111,6 +135,20 @@ body {
     color: #000000;
     padding-left: 20%;
     padding-bottom: 20px;
+}
+.hex1 {
+    position: absolute;
+    bottom: -945px;
+    left: 0px;
+    height: 450px;
+    width: 450px;
+}
+.hex2 {
+    position: absolute;
+    bottom: -805px;
+    right: 0px;
+    height: 450px;
+    width: 450px;
 }
 #intro {
     color: #ffffff;
@@ -206,7 +244,8 @@ iframe {
   
   /* Add some shadows to create a card effect */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(119, 119, 119, 0.2);
+    background-color: #638891;
   }
   
   /* Some left and right padding inside the container */
