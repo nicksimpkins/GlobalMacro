@@ -88,6 +88,18 @@ body {
     text-align: center;
     font-weight: bold;
     color: #ffffff;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+.name {
+    font-size: 24px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+
+
 }
 .subtext2 {
     font-size: 24px;
@@ -138,14 +150,14 @@ body {
 }
 .tri1 {
     position: absolute;
-    bottom: -345px;
+    bottom: -37%;
     left: 0px;
     height: 450px;
     width: 260px;
 }
 .tri2 {
     position: absolute;
-    bottom: -345px;
+    bottom: -37%;
     right: 0px;
     height: 450px;
     width: 260px;
@@ -155,14 +167,14 @@ body {
     bottom: -1145px;
     left: 0px;
     height: 450px;
-    width: 260px;
+    width: 280px;
 }
 .hex2 {
     position: absolute;
     bottom: -955px;
     right: 0px;
     height: 450px;
-    width: 200px;
+    width: 260px;
 }
 .email {
     text-decoration: none;
@@ -181,6 +193,17 @@ body {
 #company {
     background-color: #ffffff;
     color: black;
+
+
+}
+#test {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+#test img {
+    max-height: 100%;
+    max-width: 100%;
 }
 #chart {
     float: left;
