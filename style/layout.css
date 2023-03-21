@@ -193,8 +193,6 @@ body {
 #company {
     background-color: #ffffff;
     color: black;
-
-
 }
 #test {
     display: flex;
@@ -220,12 +218,6 @@ body {
 }
 iframe {
     margin: 0 auto;
-}
-#comp1 {
-
-}
-#comp2 {
-
 }
 #comp3 {
     padding-bottom: 20px;
@@ -266,49 +258,33 @@ iframe {
     font-weight: bold;
     color: #ffffff;
 }
-/* Three columns side by side */
 .column1 {
     float: left;
     width: 20%;
     margin-bottom: 16px;
     padding-left: 25%;
     padding-right: 5%;
-  }
-  .column2 {
+}
+.column2 {
     float: left;
     width: 20%;
     margin-bottom: 16px;
     padding-left: 5%;
     padding-right: 25%;
-  }
-  
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  
-  /* Add some shadows to create a card effect */
-  .card {
+}
+.card {
     box-shadow: 0 4px 8px 0 rgba(119, 119, 119, 0.2);
     background-color: #638891;
-  }
-  
-  /* Some left and right padding inside the container */
-  .container {
+}
+.container {
     padding: 0 16px;
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
+}
+.container::after, .row::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  .button {
+}
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -318,8 +294,15 @@ iframe {
     text-align: center;
     cursor: pointer;
     width: 100%;
-  }
-  
-  .button:hover {
+}
+.button:hover {
     background-color: #555;
-  }
+}
+/* MOBILE FORMAT */
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
+  
