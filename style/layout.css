@@ -141,14 +141,14 @@ body {
     bottom: -945px;
     left: 0px;
     height: 450px;
-    width: 450px;
+    width: 260px;
 }
 .hex2 {
     position: absolute;
     bottom: -805px;
     right: 0px;
     height: 450px;
-    width: 450px;
+    width: 200px;
 }
 #intro {
     color: #ffffff;
